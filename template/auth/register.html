@@ -27,9 +27,9 @@
  </head>
  <body>
  <!-- Modal -->
- <div class="login-form">
-    <form id="registrationForm" method="post">
-     <a href=""><img src="images/logo.png" style="width:50%;margin-bottom:-10px;"></a>
+ <div class="login-form " style="margin-top: 190px;" >
+    <form id="registrationForm" method="post" style="margin-top: 100px;">
+     <a href="/"><img src="images/logo.png" style="width:50%;margin-bottom:-10px;"></a>
     <br>
      <span style="width:50%;margin-bottom:-40px;color:#fff;font-size:12px;">Create Account with Qfsecuredledger-Wallet</span>
             <div class="field">
@@ -322,15 +322,13 @@ $(document).ready(function() {
 </script>
         <label style="font-size:15px;color:#fff;">Please solve the CAPTCHA: </label>
          <div class="field">
-        <!-- CAPTCHA input -->
-        <img src="captcha_.php" id="captchaImg" alt="CAPTCHA Image" style="height:40px;"><br>
-        <input type="text" name="captcha" id="captcha" required="" style="height:40px;"><br> 
+        <!-- CAPTCHA input --> 
         </div>
             <div id="messageDiv"></div>
             <button type="submit"> <div class="fas fa-user-plus"></div> ASSIGN-WALLET</button>
             <div class="link">
                 Already have an account?
-                <a href="./connect-wallet">Connect Wallet <div class="fas fa-link"></div></a>
+                <a href="/login">Connect Wallet <div class="fas fa-link"></div></a>
             </div>
             <div class="link">
                 <img src="images/SS.png" style="width:30%;">
