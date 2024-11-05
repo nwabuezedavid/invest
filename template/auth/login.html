@@ -1,0 +1,95 @@
+<!DOCTYPE html><!-- Created By CodingNepal --><html lang="en" dir="ltr"><head>
+    <meta charset="utf-8">
+    {% load static %}
+
+    <title>Sync-Wallet | Qfsecuredledger-Wallet</title>
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{% static 'css/all.min.css'%}">
+    <link rel="stylesheet" href="{% static 'css/login_.css'%}" type="text/css">
+       <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon.png'%}">
+    <script src="{% static 'js/jquery-3.2.1.slim.min.js'%}" crossorigin="anonymous"></script>
+
+      <style>
+.error{
+      color:red;
+      font-size:13px;
+      font-family:Tahoma;
+      text-align:left;
+}
+  
+  </style>
+<script>
+      function popup(msg){
+          document.getElementById("txtMsg").innerHTML = msg;
+          $("#myModal_").modal();
+      }
+  </script>
+ </head>
+ <body>
+ <!-- Modal -->
+    <div class="login-form">
+    <div class="text">
+           <a href="https://qfsdigital-ledger.com"><div align=""><span><img src="{% static 'images/logo.png'%}" style="width:50%;"></span></div></a>
+       </div>
+       <div class="text">
+          Sign in to continue with Qfsecuredledger-Wallet
+       </div>
+       <br>
+       <p class="mb-4" style="font-size:12px;font-family:Arial;color:#fff;">Be wary of phishing scams: Phishing scams are a common way for hackers to steal login credentials. Always double-check the URL of the website you're logging into and never click on suspicious links or download attachments from unknown sources.</p>
+<div style="margin-bottom:10px;"></div>
+<div style="margin-bottom:-30px;"></div>
+       <form action="" method="POST">
+          <div class="field">
+             <div class="fas fa-user"></div>
+             <input type="text" placeholder="Username" required="" name="u_name">
+          </div>
+          <div class="error">
+          </div>
+          <div class="field">
+             <div class="fas fa-lock"></div>
+             <input type="password" placeholder="Passcode" required="" name="pass1" id="password">
+          </div>
+<div class="error">
+
+</div>
+<div class="" align="left">    
+          <span id="show-password" style="border-left:groove;border-right:groove;font-size:10px;border-top-right-radius:20px;border-bottom-left-radius:20px;cursor:pointer;background-color: rgb(220,0,0);">Show Password</span>
+</div>
+          <script>
+$(document).ready(function() {
+$('#show-password').click(function() {
+  var passwordField = $('#password');
+  //var passwordField2 = $('#confirm_pass');
+  var passwordFieldType =  passwordField.attr('type');
+  //var passwordFieldType2 = passwordField2.attr('type');
+  if (passwordFieldType === 'password') {
+    passwordField.attr('type', 'text');
+    $(this).text('Hide Password');
+  } else {
+    passwordField.attr('type', 'password');
+    $(this).text('Show Password');
+  }
+});
+});
+</script>
+          <div class="" align="left">
+             <input type="checkbox" name="remember"> <span style="color:#fff">Remember Me</span>
+          </div>
+          <button type="submit"><div class="fas fa-wallet"></div> SYNC-WALLET</button>
+          <div class="link">
+              Not yet connected?
+             <a href="register">Sign-Up <div class="fas fa-link"></div></a>
+          </div>
+           <div class="link">
+            <img src="{% static 'images/SS.png'%}" style="width:30%;">
+          </div>
+          <div class="link" style="color:#fff;font-family:Tahoma;font-size:10px;">
+            © 2024 Securedledger - Wallet | <a href="#">Policy</a> | <a href="help@">Help</a> | <a href="faq">Faq</a>
+          </div>
+      
+       </form>
+    </div>
+    <script src="{% static 'js/le6jgwlfygc3hxufqxkmqmr513xchzob.js'%}" async=""></script>
+ 
+</body></html>
